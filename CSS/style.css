@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .title-container {
@@ -43,7 +43,7 @@ body {
 
 .logo1,
 .logo2 {
-    width: clamp(4rem, 10vw, 11rem);;
+    width: clamp(5rem, 13vw, 14rem);;
     height: auto;
 }
 
@@ -53,7 +53,6 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0 0 0;
     font-size: clamp(1rem, 2vw, 2rem);
     color: white;
 }
@@ -64,9 +63,10 @@ header {
     background-color: #ffb347;
     text-align: center;
     /* padding: 20px; */
-    margin: 20px;
-    margin: 0px 20%;
-    border-radius: 10px;
+    padding: 10px 0;
+    
+    margin: 30px 20%;
+    border-radius: 25px;
     color: white;
 }
 
@@ -74,7 +74,7 @@ section {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 40px 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     font-size: clamp(1rem, 2vw, 2rem);
 }
 
