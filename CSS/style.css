@@ -1,4 +1,7 @@
-body {
-    margin: 0;
-    background-image: url("assets");
-}
+ /* * == Imagen de Fondo == */
+
+ .background_image {
+    background-image: url("assets/donas-fondo.jpg");
+    background-size: cover;
+    /* *Para adaptar el tamaño de la imagen */
+ }
