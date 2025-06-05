@@ -1,7 +1,110 @@
  /* * == Imagen de Fondo == */
 
- .background_image {
-    background-image: url("assets/donas-fondo.jpg");
-    background-size: cover;
-    /* *Para adaptar el tamaño de la imagen */
- }
+.background_image {
+  background-image: url("../assets/donuts.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .background_image::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2); 
+  z-index: 1;
+} */
+
+/* .background_image > * {
+  position: relative;
+  z-index: 2; /* para que el contenido esté encima del overlay 
+} */
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.title-container {
+    flex-grow: 1;
+}
+
+.logo1,
+.logo2 {
+    width: 40px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    color: white;
+}
+
+
+header {
+    background-color: #ffb347;
+    padding: 20px;
+    color: white;
+}
+
+
+header {
+    background-color: #ffb347;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 20%;
+    color: white;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #d2691e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.galery img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffcc70;
+    padding: 1rem;
+    color: #333;
+    margin: 0;
+    margin-top: 2rem;
+}
