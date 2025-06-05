@@ -43,7 +43,7 @@ body {
 
 .logo1,
 .logo2 {
-    width: clamp(5rem, 13vw, 14rem);;
+    width: clamp(3rem, 13vw, 14rem);;
     height: auto;
 }
 
@@ -65,7 +65,7 @@ header {
     /* padding: 20px; */
     padding: 10px 0;
     
-    margin: 30px 20%;
+    margin: 30px 10%;
     border-radius: 25px;
     color: white;
 }
