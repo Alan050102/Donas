@@ -34,6 +34,7 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin-top: 20px;
 }
 
 .title-container {
@@ -42,42 +43,39 @@ body {
 
 .logo1,
 .logo2 {
-    width: 40px;
+    width: clamp(4rem, 10vw, 11rem);;
     height: auto;
 }
 
 header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: clamp(2rem, 5vw, 6rem);;
 }
 
 header p {
     margin: 5px 0 0 0;
-    font-size: 1rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     color: white;
 }
 
-
-header {
-    background-color: #ffb347;
-    padding: 20px;
-    color: white;
-}
 
 
 header {
     background-color: #ffb347;
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
+    margin: 20px;
     margin: 0px 20%;
+    border-radius: 10px;
     color: white;
 }
 
 section {
     background-color: rgba(255, 255, 255, 0.8);
-    margin: 20px;
+    margin: 40px 20px;
     padding: 20px;
     border-radius: 10px;
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
 h1, h2 {
@@ -85,8 +83,8 @@ h1, h2 {
 }
 
 ul {
-    list-style-type: none;
     padding: 0;
+    margin-left: clamp(2vw, 8vw, 10vw);
 }
 
 li {
@@ -103,8 +101,9 @@ li {
 footer {
     text-align: center;
     background-color: #ffcc70;
-    padding: 1rem;
+    padding: 10px;
     color: #333;
     margin: 0;
     margin-top: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
 }
